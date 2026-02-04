@@ -87,9 +87,8 @@ Why I asked: I tried using `process.argv` directly but it confused me because si
 
 What I learned: `parseArgs` is built into Node.js and separates very cleanly the positional arguments from flags.
 
----
 
-### Conversation 4: Jest with TypeScript
+
 
 Q: Why do my Jest tests fail with syntax errors about import statements?
 
@@ -112,9 +111,7 @@ Why I asked: I kept getting "Cannot use import statement outside a module" error
 
 What I learned: Jest needs a "transformer" to handle TypeScript.
 
----
 
-### Conversation 5: Making CLI work as global command
 
 Q: How do I make my package work as a command after `npm install --global .`?
 
